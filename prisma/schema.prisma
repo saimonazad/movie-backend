@@ -36,7 +36,7 @@ model Movie {
   overview          String?
   popularity        Float?
   poster_path       String?
-  release_date      String?
+  release_date      DateTime?
   title             String?
   video             Boolean?
   vote_average      Float?

@@ -7,3 +7,9 @@ declare global {
     }
   }
 }
+
+export interface paginateResponse {
+  data: any[];
+  page: number;
+  limit: number;
+}
